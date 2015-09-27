@@ -22,7 +22,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="StO-ON-3Ox" kind="push" id="xc3-M3-dfX"/>
+                                    <segue destination="StO-ON-3Ox" kind="push" identifier="showPlaylistDetail" id="xc3-M3-dfX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,9 +52,24 @@
                     <view key="view" contentMode="scaleToFill" id="YVl-w5-ZME">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You haven't presssed the button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gh4-wc-jQn">
+                                <rect key="frame" x="37" y="273" width="247" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gh4-wc-jQn" firstAttribute="centerY" secondItem="YVl-w5-ZME" secondAttribute="centerY" id="DJP-vG-h8c"/>
+                            <constraint firstItem="Gh4-wc-jQn" firstAttribute="centerX" secondItem="YVl-w5-ZME" secondAttribute="centerX" id="OWp-6u-DNE"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="OQ2-Fs-UPI"/>
+                    <connections>
+                        <outlet property="buttonPressLabel" destination="Gh4-wc-jQn" id="frb-1K-OZu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aaL-dT-uwm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
