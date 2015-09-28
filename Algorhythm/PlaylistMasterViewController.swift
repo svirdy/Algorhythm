@@ -58,7 +58,6 @@ class PlaylistMasterViewController: UIViewController {
     }
 
     @IBAction func showPlaylistDetail(sender: AnyObject) {
-        
         performSegueWithIdentifier("showPlaylistDetailSegue", sender: sender)
     }
 }

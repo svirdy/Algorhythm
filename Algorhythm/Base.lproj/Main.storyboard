@@ -27,22 +27,37 @@
                             <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="o4u-ri-qAY">
                                 <rect key="frame" x="161" y="66" width="157" height="165"/>
                                 <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gVf-TF-6Ra" appends="YES" id="gcK-H1-TQD"/>
+                                </connections>
                             </imageView>
                             <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="gMX-fG-G6o">
                                 <rect key="frame" x="2" y="233" width="157" height="165"/>
                                 <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oTn-Un-DyN" appends="YES" id="h9G-qT-PL2"/>
+                                </connections>
                             </imageView>
                             <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="rhv-Vm-2qz">
                                 <rect key="frame" x="2" y="400" width="157" height="165"/>
                                 <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Kh2-9O-r5X" appends="YES" id="bGV-wI-OI3"/>
+                                </connections>
                             </imageView>
                             <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Zuy-aM-CiN">
                                 <rect key="frame" x="161" y="400" width="157" height="165"/>
                                 <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lyB-QX-NJd" appends="YES" id="AzH-OC-C8V"/>
+                                </connections>
                             </imageView>
                             <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="uhJ-jj-mS9">
                                 <rect key="frame" x="161" y="233" width="157" height="165"/>
                                 <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bDp-Zl-Ipg" appends="YES" id="uWg-u7-9kG"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882352941" green="0.18431372549019609" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -90,7 +105,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="OFF-bF-IBc">
                     <connections>
-                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="5qR-Ki-naa"/>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="yCg-SX-dah"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="gVf-TF-6Ra">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="XuQ-h0-dS9"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="oTn-Un-DyN">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="fp5-It-0OK"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="bDp-Zl-Ipg">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="hpZ-58-KKc"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Kh2-9O-r5X">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="t9u-5I-hG6"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="lyB-QX-NJd">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="zcX-Wz-KRM"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
