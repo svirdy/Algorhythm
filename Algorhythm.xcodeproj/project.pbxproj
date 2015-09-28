@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1727B6701BB8D45400AA082B /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727B66F1BB8D45400AA082B /* MusicLibrary.swift */; settings = {ASSET_TAGS = (); }; };
+		1727B6721BB8D54F00AA082B /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727B6711BB8D54F00AA082B /* Playlist.swift */; settings = {ASSET_TAGS = (); }; };
 		179881521BB897810087F693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179881511BB897810087F693 /* AppDelegate.swift */; };
 		179881541BB897810087F693 /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179881531BB897810087F693 /* PlaylistMasterViewController.swift */; };
 		179881571BB897810087F693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179881551BB897810087F693 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1727B66F1BB8D45400AA082B /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		1727B6711BB8D54F00AA082B /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		1798814E1BB897810087F693 /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179881511BB897810087F693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		179881531BB897810087F693 /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				179881531BB897810087F693 /* PlaylistMasterViewController.swift */,
 				179881631BB899E40087F693 /* PlaylistDetailViewController.swift */,
 				179881551BB897810087F693 /* Main.storyboard */,
+				1727B66F1BB8D45400AA082B /* MusicLibrary.swift */,
+				1727B6711BB8D54F00AA082B /* Playlist.swift */,
 				179881581BB897810087F693 /* Assets.xcassets */,
 				1798815A1BB897810087F693 /* LaunchScreen.storyboard */,
 				1798815D1BB897810087F693 /* Info.plist */,
@@ -141,6 +147,8 @@
 				179881641BB899E40087F693 /* PlaylistDetailViewController.swift in Sources */,
 				179881541BB897810087F693 /* PlaylistMasterViewController.swift in Sources */,
 				179881521BB897810087F693 /* AppDelegate.swift in Sources */,
+				1727B6701BB8D45400AA082B /* MusicLibrary.swift in Sources */,
+				1727B6721BB8D54F00AA082B /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				179881621BB897810087F693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

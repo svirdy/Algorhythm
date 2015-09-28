@@ -16,20 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="y8s-Be-t4R">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="gPf-Bt-xiY"/>
+                                    <constraint firstAttribute="width" constant="200" id="lHt-YO-h7x"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ER-Dd-zuJ">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <rect key="frame" x="137" y="392" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="StO-ON-3Ox" kind="push" identifier="showPlaylistDetail" id="xc3-M3-dfX"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2ER-Dd-zuJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3f9-DF-HKI"/>
-                            <constraint firstItem="2ER-Dd-zuJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MdZ-Pt-A9y"/>
+                            <constraint firstItem="y8s-Be-t4R" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8Ia-vF-3fE"/>
+                            <constraint firstItem="y8s-Be-t4R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PSc-ka-ZZf"/>
+                            <constraint firstItem="2ER-Dd-zuJ" firstAttribute="top" secondItem="y8s-Be-t4R" secondAttribute="bottom" constant="8" id="grN-DY-YeC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="87M-7R-W8z"/>
@@ -94,4 +102,7 @@
             <point key="canvasLocation" x="162" y="339"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="coffee" width="53" height="107"/>
+    </resources>
 </document>
